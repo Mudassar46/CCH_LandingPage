@@ -1,0 +1,169 @@
+.container{
+    width: 90%;
+    /* height: 100vh; */
+    background-color: whitesmoke;
+    margin-top: 70px;
+    margin: auto;
+}
+.top-nav{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(3, 22, 26);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ul1{
+    width: 10%;
+}
+.ul2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+}
+.ul3{
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 4px;
+    
+}
+ul li:hover{
+    background-color: rgb(186, 107, 5);
+    color: white;
+    border-bottom: underline;
+    
+}
+.li-logo{
+    font-size: x-large;
+}
+.btn{
+    text-decoration: dotted;
+    border: none;
+    background-color: rgb(3, 174, 174);
+    color: black;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.btn1{
+    text-decoration: dotted;
+    border: none;
+    outline: 2px dotted white;
+    background-color: rgb(3, 22, 26);
+    color:white;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.header{
+    width: 100%;
+    background-color: rgb(7, 15, 26);
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.detail-data{
+    margin-top: 80px;
+    margin-left: 60px;
+    color: white;
+
+}
+.header-img{
+margin: 40px 20px 40px 20px;
+border-radius: 20px;
+}
+.img{
+    width: 90%;
+    height: 90%;
+}
+.header-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+.detail-data h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    /* align-self: center;
+    align-items: center; */
+    margin: none;
+    padding: none;
+    font-size: 40px;
+}
+.features{
+    margin: 20px;
+    padding: 40px;
+
+}
+.features p{
+    width: 70%;
+    margin: auto;
+    color: rgb(96, 88, 88);
+    text-align: center;
+}
+.f-section{
+    width: 100%;
+    height: 500px;
+    padding: 30px;
+    box-sizing: border-box;
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 50px;
+
+}
+.f1{
+    width: 100%;
+    height: 200px;
+    color: white;
+    background-color: rgb(7, 15, 26);
+}
+.f2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(7, 15, 26);
+}
+.f3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(7, 15, 26);
+}
+.f4{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(7, 15, 26);
+}
+.f5{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(7, 15, 26);
+}
+.f6{
+    width: 100%;
+    background-color: rgb(7, 15, 26);
+}
+.icon{
+    color: rgb(22, 210, 204);
+    font-size: 40px;
+    padding: 20px;
+}
+.box h3{
+    color: white;
+ margin: 15px;
+}
+.box p{
+    margin:0px 10px 10px 15px;
+    color: rgb(217, 207, 207);
+}
